@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SolcNet;
+using SDL2;
 
 namespace ConsoleApp4
 {
@@ -11,7 +11,7 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
-            var rlib = SolcLib.Create("OpenZeppelin");
+            SDL.SDL_Init(SDL.SDL_INIT_NOPARACHUTE | SDL.SDL_INIT_VIDEO);
         }
     }
 }

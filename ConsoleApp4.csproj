@@ -50,8 +50,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="SolcNet">
-      <Version>1.1.116-beta</Version>
+    <PackageReference Include="OpenRA-SDL2-CS">
+      <Version>1.0.10</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
